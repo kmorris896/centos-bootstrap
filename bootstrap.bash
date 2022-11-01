@@ -13,12 +13,18 @@ yum update
 echo "Installing apache"
 yum install -y httpd httpd-tools
 
-echo "Verifying installation"
+echo "Verifying apache installation"
 httpd -v
 
 echo "Adding to startup"
 systemctl start httpd
 systemctl enable httpd
+
+echo "Installing php"
+yum install -y php
+
+echo "Verifying php installation"
+php --version
 
 echo "Getting machine IP..."
 IP_ADDRESS=`curl http://checkip.amazonaws.com`
