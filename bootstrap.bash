@@ -8,7 +8,7 @@ set -xe
 
 # https://idroot.us/install-apache-centos-9-stream/
 echo "Installing OS Updates"
-yum update
+yum update -y
 
 echo "Installing apache"
 yum install -y httpd httpd-tools
