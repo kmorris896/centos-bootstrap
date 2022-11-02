@@ -26,3 +26,11 @@ bash <(curl -Lks "https://raw.githubusercontent.com/kmorris896/centos-bootstrap/
 Userscripts often run as root so there is no need to `sudo su`.
 
 Once the script runs, httpd and php should be ready for your code, assuming you know where they get installed.
+
+## Test Coverage
+
+| CentOS Version   | ami    | httpd Version    | PHP version |
+|----------------- | ------ | ---------------- | ----------- |
+| CentOS Stream 9  | ami-071eb93df3cfe5101 | 2.4.53-7.e19    | 8.0.20-3.e19    |
+| CentOS Stream 8  | ami-09243ba0df36156d9 | 2.4.37-47    | 7.2.24-1 |
+| CentOS 7 | ami-0b802bd2b502aa382 | 2.4.6 | 5.4.16 |
