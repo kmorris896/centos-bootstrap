@@ -29,7 +29,7 @@ php --version
 echo "Getting machine IP..."
 IP_ADDRESS=`curl http://checkip.amazonaws.com`
 
-unset -xe
+set +xe
 
 echo "If everything installed correctly, you should be able"
 echo "to visit the default website of httpd.  You can do this"
