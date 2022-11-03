@@ -1,6 +1,6 @@
 # CentOS Bootstrap
 
-This repository will install [Apache Web Server](https://httpd.apache.org/) (packaged as `httpd`) and [php](https://www.php.net/) 8.0.  Although 8.1 is the latest version, CentOS does not have it available in their repositories.
+This repository will install [Apache Web Server](https://httpd.apache.org/) (packaged as `httpd`) and [php](https://www.php.net/).  Please scroll down to "Test Coverage" to learn what versions.
 
 ## Instructions
 
